@@ -1,0 +1,43 @@
+h1 {
+  font-size: 45px;
+  color: #2e7ad3;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  color: #104c90;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.blog-post {
+  width: 500px;
+  margin: 0 auto;
+  background: #f1f1f1;
+  padding: 25px;
+}
+
+a {
+  color: #ff8000;
+  font-weight: bold;
+}
+a:hover,
+a:focus {
+  color: #104c90;
+}
+a:link {
+  color: #ff8000;
+}
+
+img {
+  width: 500px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}

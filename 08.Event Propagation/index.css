@@ -1,0 +1,42 @@
+.outer {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+}
+
+.inner {
+  height: 100px;
+  width: 100px;
+  background-color: orangered;
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  background-color: orchid;
+}
+
+.product__listing {
+  width: 100vw;
+  margin: 0;
+  padding: 20px;
+  background-color: lightcyan;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.5rem;
+  list-style: none;
+}
+
+li {
+  height: 100px;
+  width: 100px;
+  background-color: blueviolet;
+  border: 2px solid cadetblue;
+  padding: 2px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+}
